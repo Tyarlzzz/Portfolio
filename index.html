@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charles Jerald C. Carpio — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Charles Jerald C. Carpio, a 4th-year BSIT student at Central Luzon State University."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Set the saved theme before first paint so the page doesn't flash -->
+    <script>
+      try {
+        var t = localStorage.getItem("cc-theme");
+        if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
