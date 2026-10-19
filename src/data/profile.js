@@ -302,7 +302,7 @@ export const certifications = [
   { title: "Data Visualization using Plotly", issuer: "coursera", year: "2026" },
   { title: "Introduction to Modern AI", issuer: "Networking Academy", year: "2026" },
   { title: "SEO 101:Mastering The Basics And Applying SEO In Freelance Work, Websites, And Digital Projects", issuer: "Central Luzon State University", year: "2025" },
-  { title: "Tech the Halls: An IoT Holliday Jam", issuer: "Department of Science and Technology (DOST)", year: "2025" },
+  { title: "TechSTART: IoT 101 Using Arduino", issuer: "Department of Science and Technology (DOST)", year: "2025" },
 ];
 
 export const interests = ["Badminton", "Physical Fitness", "Swimming", "Watching Movies", "Playing Video Games", "Exploring New Technologies"];
