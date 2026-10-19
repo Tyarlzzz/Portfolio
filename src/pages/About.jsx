@@ -54,7 +54,7 @@ export default function About({ profile, skillGroups, education, certifications,
             <a
               className="btn btn--primary"
               href={profile.resumeUrl}
-              download="Carpio, Charles Jerald C._Resume.pdf"
+              download="resume V3.pdf"
             >
               <Download size={16} aria-hidden="true" /> Download my resume
             </a>
