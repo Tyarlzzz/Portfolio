@@ -295,14 +295,16 @@ export const education = [
 // ---------------------------------------------------------------
 //  7. Certifications and interests
 // ---------------------------------------------------------------
+// Optional image: "/certificates/name.jpg" (file in public/certificates).
+// Optional url: a public credential verification link.
 export const certifications = [
-  { title: "AWS Academy Graduate - Cloud Foundations - Training Badge", issuer: "AWS academy", year: "2026" },
-  { title: "Data Visualization", issuer: "kaggle", year: "2026" },
-  { title: "Data Visualization using Bokeh", issuer: "coursera", year: "2026" },
-  { title: "Data Visualization using Plotly", issuer: "coursera", year: "2026" },
-  { title: "Introduction to Modern AI", issuer: "Networking Academy", year: "2026" },
-  { title: "SEO 101:Mastering The Basics And Applying SEO In Freelance Work, Websites, And Digital Projects", issuer: "Central Luzon State University", year: "2025" },
-  { title: "TechSTART: IoT 101 Using Arduino", issuer: "Department of Science and Technology (DOST)", year: "2025" },
+  { title: "AWS Academy Graduate - Cloud Foundations - Training Badge", issuer: "AWS academy", year: "2026", image: "/AWS-CERTIFICATE.png"},
+  { title: "Data Visualization", issuer: "kaggle", year: "2026", image: "/Charles Jerald Carpio - Data Visualization Certificate - kaggle.png"},
+  { title: "Data Visualization using Bokeh", issuer: "coursera", year: "2026", image: "/Data Visualization Using Bokeh-Coursera-charles-certificate.png"},
+  { title: "Data Visualization using Plotly", issuer: "coursera", year: "2026", image: "/Data Visualization Using Plotly-Coursera-charles-certificate.png"},
+  { title: "Introduction to Modern AI", issuer: "Networking Academy", year: "2026", image: "/Introduction to Modern AI-Certificate-Charles.png"},
+  { title: "SEO 101:Mastering The Basics And Applying SEO In Freelance Work, Websites, And Digital Projects", issuer: "Central Luzon State University", year: "2025", image: "/SEO Certificate-Charles.png"},
+  { title: "TechSTART: IoT 101 Using Arduino", issuer: "Department of Science and Technology (DOST)", year: "2025", image: "/IoT-Certificate-DOST-Charles.jpg"},
 ];
 
 export const interests = ["Badminton", "Physical Fitness", "Swimming", "Watching Movies", "Playing Video Games", "Exploring New Technologies"];

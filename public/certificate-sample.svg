@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="750" viewBox="0 0 1000 750">
+  <rect width="1000" height="750" fill="#f8faf4"/>
+  <rect x="32" y="32" width="936" height="686" rx="8" fill="none" stroke="#1f6b45" stroke-width="4"/>
+  <rect x="48" y="48" width="904" height="654" rx="4" fill="none" stroke="#c6d0bd" stroke-width="2"/>
+  <path d="M32 160V32h128M840 718h128V590" fill="none" stroke="#e6b33d" stroke-width="10"/>
+  <g text-anchor="middle" font-family="Georgia, serif" fill="#132419">
+    <text x="500" y="140" font-family="Arial, sans-serif" font-size="19" letter-spacing="5" fill="#1f6b45">SAMPLE CERTIFICATE</text>
+    <text x="500" y="245" font-size="60">Certificate of Completion</text>
+    <text x="500" y="310" font-family="Arial, sans-serif" font-size="22" fill="#4d5f54">This sample is presented to</text>
+    <text x="500" y="395" font-size="48">Charles Jerald C. Carpio</text>
+    <path d="M220 424H780" stroke="#c6d0bd" stroke-width="2"/>
+    <text x="500" y="480" font-family="Arial, sans-serif" font-size="23">Your course or certification title</text>
+    <text x="500" y="525" font-family="Arial, sans-serif" font-size="20" fill="#4d5f54">Issuing organization · 2026</text>
+    <text x="500" y="640" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" fill="#1f6b45">PLACEHOLDER — REPLACE WITH YOUR CERTIFICATE</text>
+  </g>
+</svg>

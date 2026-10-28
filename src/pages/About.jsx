@@ -96,28 +96,36 @@ export default function About({ profile, skillGroups, education, certifications,
         <Timeline items={education} />
       </section>
 
-      <section className="block two-col" aria-label="Certifications and interests">
-        <div>
+      <section className="block" aria-labelledby="certifications-title">
           <div className="block__head">
-            <h2>Certifications</h2>
+            <h2 id="certifications-title">Certifications</h2>
           </div>
           <ul className="certs">
-            {certifications.map((c, i) => (
-              <li key={i}>
-                <strong>{c.title}</strong>
-                <span className="muted">
-                  {c.issuer}, {c.year}
-                </span>
+            {certifications.map((c) => (
+              <li key={c.title} className="cert-card">
+                {c.image && (
+                  <a className="cert-card__media" href={c.image} target="_blank" rel="noreferrer" aria-label={`View certificate: ${c.title} (opens in a new tab)`}>
+                    <img src={c.image} alt={`${c.title} certificate`} loading="lazy" />
+                  </a>
+                )}
+                <div className="cert-card__body">
+                  <span className="cert-card__year">{c.year}</span>
+                  <h3 className="cert-card__title">{c.title}</h3>
+                  <p className="cert-card__issuer">{c.issuer}</p>
+                  {c.url && (
+                    <a className="cert-card__link" href={c.url} target="_blank" rel="noreferrer" aria-label={`View credential: ${c.title} (opens in a new tab)`}>View credential <span aria-hidden="true">↗</span></a>
+                  )}
+                </div>
               </li>
             ))}
           </ul>
-        </div>
-        <div>
+      </section>
+
+      <section className="block" aria-labelledby="interests-title">
           <div className="block__head">
-            <h2>Outside of code</h2>
+            <h2 id="interests-title">Outside of code</h2>
           </div>
           <TagList items={interests} />
-        </div>
       </section>
     </>
   );
