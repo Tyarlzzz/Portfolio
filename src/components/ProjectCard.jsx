@@ -1,5 +1,6 @@
 import ProjectThumb from "./ProjectThumb.jsx";
 import TagList from "./TagList.jsx";
+import { ArrowUpRight } from "lucide-react";
 
 /**
  * Props:
@@ -15,7 +16,7 @@ export default function ProjectCard({ project, onOpen }) {
         <p className="pcard__summary">{project.summary}</p>
         <TagList items={project.tech} />
         <button type="button" className="link-btn pcard__btn" aria-label={`View details of ${project.title}`}>
-          View details
+          View details <ArrowUpRight size={16} className="pcard__arrow" aria-hidden="true" />
         </button>
       </div>
     </article>
